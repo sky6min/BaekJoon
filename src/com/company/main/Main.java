@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        bj2294 solution = new bj2294();
-        solution.Solution();
+        bj2294 sol = new bj2294();
+        sol.Solution();
     }
 }
