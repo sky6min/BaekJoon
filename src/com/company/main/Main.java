@@ -1,6 +1,6 @@
 package com.company.main;
 
-import com.company.backjoon.dps.bj1012;
+import com.company.backjoon.dfs.bj1012;
 
 public class Main {
 
