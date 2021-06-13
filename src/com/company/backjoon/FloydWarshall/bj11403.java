@@ -6,7 +6,6 @@ public class bj11403 {
 
     static int num;
     static int map[][];
-    static int nmap[][];
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -20,6 +19,27 @@ public class bj11403 {
             }
         }
 
+        for(int k=0; k<num; k++)
+        {
+            for(int i=0; i<num; i++)
+            {
+                for(int j=0; j<num; j++)
+                {
+                    if(map[i][k] == 1 && map[k][j] == 1)
+                    {
+                        map[i][j] = 1;
+                    }
+                }
+            }
+        }
 
+        for(int i=0; i<num; i++)
+        {
+            for(int j=0; j<num; j++)
+            {
+                System.out.print(map[i][j] + " ");
+            }
+                System.out.print("\n");
+        }
     }
 }
